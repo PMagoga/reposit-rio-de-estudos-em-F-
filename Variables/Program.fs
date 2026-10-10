@@ -65,3 +65,4 @@ let printAll list = List.iter(fun x -> printCard(x)) list
 let take (no:int) (list) = List.take no list
 
 cards |> shuffle |> take 3 |> printAll *)
+
